@@ -1,0 +1,33 @@
+{
+  "title": "Timeline 2: Save the Last City",
+  "description": "Year 2130. The last standing city faces collapse due to past climate decisions. Change the course.",
+  "energy": 4,
+  "events": [
+    {
+      "id": "e1",
+      "description": "Coal plants expanded in 2080",
+      "outcome": "Approved"
+    },
+    {
+      "id": "e2",
+      "description": "City's water regulation in 2105",
+      "outcome": "Ignored"
+    },
+    {
+      "id": "e3",
+      "description": "Forest zones sold in 2090",
+      "outcome": "Privatized"
+    },
+    {
+      "id": "e4",
+      "description": "Emergency AI proposed in 2110",
+      "outcome": "Rejected"
+    }
+  ],
+  "goal_state": {
+    "e1": "Banned expansion",
+    "e2": "Strictly enforced",
+    "e3": "Protected",
+    "e4": "Deployed citywide"
+  }
+}

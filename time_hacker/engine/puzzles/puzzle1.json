@@ -1,0 +1,27 @@
+{
+  "title": "Timeline 1: Prevent World War III",
+  "description": "You are in 2091. A global war erupted in 2044. Prevent the key events that led to it.",
+  "energy": 3,
+  "events": [
+    {
+      "id": "e1",
+      "description": "AI weapon research began in 2039",
+      "outcome": "Continued unchecked"
+    },
+    {
+      "id": "e2",
+      "description": "Diplomat peace talks in 2040",
+      "outcome": "Collapsed"
+    },
+    {
+      "id": "e3",
+      "description": "Tech CEO assassinated in 2044",
+      "outcome": "Unsolved"
+    }
+  ],
+  "goal_state": {
+    "e1": "Regulated strictly",
+    "e2": "Succeeded with treaty",
+    "e3": "Prevented"
+  }
+}
